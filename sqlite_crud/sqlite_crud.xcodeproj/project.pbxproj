@@ -15,6 +15,7 @@
 		388811461CB490E6000FD1FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388811441CB490E6000FD1FA /* LaunchScreen.storyboard */; };
 		388811511CB490E6000FD1FA /* sqlite_crudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 388811501CB490E6000FD1FA /* sqlite_crudTests.m */; };
 		3888115C1CB490E6000FD1FA /* sqlite_crudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3888115B1CB490E6000FD1FA /* sqlite_crudUITests.m */; };
+		3888116A1CB498A0000FD1FA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 388811691CB498A0000FD1FA /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		388811571CB490E6000FD1FA /* sqlite_crudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqlite_crudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3888115B1CB490E6000FD1FA /* sqlite_crudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqlite_crudUITests.m; sourceTree = "<group>"; };
 		3888115D1CB490E6000FD1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388811691CB498A0000FD1FA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3888116A1CB498A0000FD1FA /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		3888112A1CB490E5000FD1FA = {
 			isa = PBXGroup;
 			children = (
+				388811691CB498A0000FD1FA /* libsqlite3.tbd */,
 				388811351CB490E6000FD1FA /* sqlite_crud */,
 				3888114F1CB490E6000FD1FA /* sqlite_crudTests */,
 				3888115A1CB490E6000FD1FA /* sqlite_crudUITests */,
@@ -499,6 +503,7 @@
 				388811621CB490E6000FD1FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		388811631CB490E6000FD1FA /* Build configuration list for PBXNativeTarget "sqlite_crudTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +512,7 @@
 				388811651CB490E6000FD1FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		388811661CB490E6000FD1FA /* Build configuration list for PBXNativeTarget "sqlite_crudUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +521,7 @@
 				388811681CB490E6000FD1FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
